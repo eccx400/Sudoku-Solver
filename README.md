@@ -1,4 +1,4 @@
-Functional Specification
+Sudoku Solver
 ===
 
 Introduction to the Sudoku Game
@@ -28,9 +28,12 @@ How to Play?
 
 There are specific steps to start a game, but they shouldn’t be too hard for the user to interact. To start the game, the user presses the start game button, which allows them the classes to independently generate a random game board for the user and and the AI. At the same time, the button also starts the timer, which starts counting the passed time. The user then starts to fill out the numbers by clicking the cell, which returns a message that states that the user can enter a number 1-9, as shown below:
 
-![snapshot2](https://user-images.githubusercontent.com/41842161/50476467-20f50000-097d-11e9-9cfc-d447580e5baf.PNG)
+![snapshot2](https://user-images.githubusercontent.com/41842161/50476605-982a9400-097d-11e9-9b63-62689e829ef3.PNG)
 
 The user can continue to solve the sudoku puzzle till whenever, but the clock is always ticking (the AI technically “solves” the board in 50ms) and when the game is over, the user can see the solution, the time spent, and the points he or she earned from that specific game. It is basically a simple sudoku game with a more ‘competitive’ twist, with the user playing against an AI (well, if the user gets lucky in the end).
+
+Functional Specification
+===
 
 GUI Classes
 ---
